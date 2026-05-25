@@ -55,6 +55,7 @@ public class POEPart2 {
         }
     }
     
+    
     //Message character length validation
     public String checkMessageLength() {
         
