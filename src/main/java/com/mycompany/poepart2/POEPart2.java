@@ -43,15 +43,14 @@ public class POEPart2 {
     // Recipient cell number validation
     public String checkRecipientCell() {
 
-        if (this.recipient != null &&
-            this.recipient.startsWith("+") &&
+        if (this.recipient.startsWith("+") &&
             this.recipient.length() <= 10) {
 
-            return "Cellphone number successfullycaptured.";
+            return "Cellphone number successfully captured.";
         }
         else {
 
-            return "Cellphone number is incorrectly formatted ordoes notcontainan internationalcode.Please correct the number and try again.";
+            return "Cellphone number is incorrectly formatted or does not contain an international code.Please correct the number and try again.";
         }
     }
     
