@@ -306,7 +306,7 @@ public static void sendMessage(){
         System.out.println("Invalid Rcipient username. Example: user_");
     }
     
-    System.out.print("Enter you message(max 250 characters):");
+    System.out.print("Enter your message(max 250 characters):");
     String message = input.nextLine();
     if(message.length()> 250){
         int excessCharacters = message.length()- 250;
